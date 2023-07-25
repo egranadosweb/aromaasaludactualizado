@@ -1,0 +1,157 @@
+html {
+    font-size: 16px;
+    font-family: $font-base;
+    color: #222121b0;
+    letter-spacing: .02rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url(../img/texturas/hojas.png);
+    background-repeat: repeat;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    color: #000;
+    font-size: $font-h1;
+    font-family: $font1;
+}
+h2{
+    color: #000;
+    font-size: $font-h2;
+    text-align: center;
+    margin:auto;
+}
+h3{
+    color: #000;
+    font-size: $font-h3;
+}
+h1,h2,h3{
+    line-height: 135%;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* height: 60px; */
+    height: auto;
+    z-index: 100;
+    color:aliceblue;
+    /*background: #009432;*/
+    background: transparent;
+    transition: 0.3s all;
+    border-radius: 0px 0px 5px 5px ; 
+}
+section{
+    width: 100%;    
+}
+section:not(#banner, #parallax, #contacto,#suscripcion){
+    //padding-bottom: 55px;
+}
+p{
+    line-height: 185%;
+}
+ul , li{
+    line-height: 135%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.--desktop{
+    display: none;
+}
+.contenedor{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+    // display: table;
+}
+#header .linea{
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 10px;
+    background: #F79F1F;
+}
+
+header img{
+    width: 100px; 
+}
+.titleSection{
+    padding: 2rem 0;
+}
+.btn{
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 120px;
+    padding: .5rem .9rem;
+    text-align: center;
+    background-color: skyblue;
+    color: inherit;
+    vertical-align:middle;
+    box-shadow: 0px 0px 32px black;
+}
+.btn-wp {
+    background-color: #009432;
+}
+.btn-info{
+    background-color: #F79F1F;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+article p{
+    font-size: 16px;
+    color: #222121b0;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:768px){
+   
+}
+
+@media (min-width:987px){
+    html{
+        font-size: 18px;
+    }
+    .--movil{
+        display: none;
+    }
+    .--desktop{
+        display: block;
+    }
+}
+
+@media(min-width:1200px){
+  
+}
+
+@media(min-width:2560px){
+  
+}

@@ -1,0 +1,81 @@
+#acerca{
+    background-image: url(../img/acerca.webp);
+    background-attachment: fixed;
+    background-position: center;
+    padding: 20px;
+    height: auto;
+    text-align: center;
+    margin-bottom: 0;
+    background-size: cover;
+    border-top: 4px solid #009432;  
+}
+#acerca h2{
+    color: white;
+}
+#acerca p{
+    color: #fff;
+    font-size: 16px;
+    line-height: 21px;
+}
+.mision, .vision{  
+    padding: 5px;
+}
+
+.mision h3, .vision h3{
+    color:orange; 
+}
+
+h3 span{
+    
+}
+
+h3{
+    border-radius: 10px;
+}
+
+@media (min-width:570px){
+    #acerca{
+        background-image:
+    url(../img/acerca2.webp);
+        background-position: 0px 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+    }   
+}
+@media (min-width:768px){
+    #acerca{
+        height: 450px;
+    } 
+    #acerca p{
+
+    }   
+}
+
+@media (min-width:900px){
+    #acerca{
+         background-position: 0px -50px;
+    } 
+}
+
+@media (min-width:1050px){
+    #acerca{
+         background-position: 0px -70px;
+    } 
+}
+
+@media (min-width:1150px){
+    #acerca{
+         background-position: 0px -90px;
+    } 
+}
+
+@media (min-width:1200px){
+    #acerca{
+         background-position: 0px -190px;
+    } 
+}
+
+
+
+

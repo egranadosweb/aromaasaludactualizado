@@ -1,0 +1,9 @@
+@import "./base/_normalize";
+@import "./base/variables";
+@import "./base/config";
+
+@import "./partials/_messenger.scss";
+@import "./partials/_menu.scss";
+@import "./partials/_contacto.scss";
+
+@import "./partials/articles/article";

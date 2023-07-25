@@ -1,0 +1,43 @@
+
+
+.card{}
+.card .contenedor {
+    padding-bottom: 4rem;
+}
+.card__body{}
+.card__title{
+    margin: 0;
+    padding: 4rem;
+    text-align: center;
+}
+.card__block{
+
+}
+.card__row{
+    margin-bottom: 2rem;
+}
+.card__subtitle{
+    text-align: left;
+    margin-bottom: 1rem;
+}
+.card__text{
+    margin-bottom: 1rem;
+}
+.card__list{}
+.card__item{}
+.card__item-title{
+    filter: contrast(.5);
+}
+.card__item-text{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+.card__item-text::before{
+    content: "+ ";
+    //border: .5px solid $color1;
+    //border-radius: 50%;
+    color: $color1;
+    font-weight: 600;
+    left: 0;
+    margin-right: .4rem;
+}

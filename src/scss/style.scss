@@ -1,0 +1,18 @@
+@import "./base/_normalize";
+@import "./base/_variables";
+@import "./base/_config";
+@import "./mixins/_mixin";
+@import "./modules/_parallax.scss";
+
+@import "./partials/_messenger.scss";
+@import "./partials/_menu.scss";
+@import "./partials/_banner.scss";
+@import "./partials/_productos.scss";
+@import "./partials/_info.scss";
+@import "./partials/_beneficios.scss";
+@import "./partials/_testimonios.scss";
+@import "./partials/_acerca.scss";
+@import "./partials/_faq.scss";
+@import "./partials/suscripcion.scss";
+@import "./partials/_contacto.scss";
+@import "./partials/_masproductos.scss";

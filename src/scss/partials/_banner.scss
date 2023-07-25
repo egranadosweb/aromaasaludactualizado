@@ -1,0 +1,98 @@
+
+#banner{
+    width: 100%;
+    height: 100vh;
+    /*margin-top: 60px;*/
+    position: relative;
+    overflow: hidden;
+    background-attachment: fixed;
+    background: #fff;
+}
+#banner .desk{
+    display: none;
+}
+.banner__group{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+}
+.banner__figure{
+    height: 100%;
+}
+.banner__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.banner__cta{
+    width: 100%;
+    position: absolute;
+    //padding: 1rem;
+    bottom: 5%;
+    color: #f2f2f2;
+}
+
+.banner__h1{
+    cursor: pointer;
+    color: #f2f2f2;
+    margin-bottom: 1.5rem;
+    text-shadow: 0px 0px 16px black;
+}
+.banner__subtitle{
+    font-size: 1rem;
+}
+.banner__btn{
+    color: #1b1b1b;
+    //text-shadow: 0px 0px 4px black;
+    padding: .4rem .3rem;
+}
+.banner__icon{
+    fill: rgb(27, 27, 27);;
+}
+.banner__btn-text{
+    display: block;
+    margin-right: .5rem;
+    font-weight: 500;
+}
+.banner__btn--info{
+    background-color: $color2;
+}
+.banner__btn--wp{
+    background-color: #009432;
+}
+
+#banner a:hover{
+    background: gray;
+    color: white;
+}
+
+
+
+
+
+@media (min-width:987px){
+    .banner__h1{
+        font-size: $font-max;
+    }
+    .banner__cta{
+        bottom: 10%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,108 @@
+#productos{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+   @include card-shadow;
+   padding: 0 !important;
+   margin-top: 1.5rem;
+   margin-bottom: 2rem;
+}
+#productos h2{
+    display: table;    
+}
+#productos h3{
+    font-size: 1.1rem !important;
+    margin-bottom: .5rem;
+}
+.productos  {
+    text-align: center;
+    background-color: #fff;
+}
+.pro .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.articulos ul{
+    font-size: 14px;
+    list-style: none;
+   
+}
+
+.articulos ul li:last-child{
+    margin-top: 1rem;
+}
+
+.articulos a{
+    font-size: 16px;
+    padding: .2rem .5rem;
+    text-decoration: none;
+    color: darkgreen;
+    border-radius: 8px;
+    background-color: $color1;
+    color: white; 
+    text-shadow: 0px 0px 4px black;
+    box-shadow: 0px 0px 4px black;
+}
+
+.articulos a:hover{
+    text-decoration: none;
+    
+}
+
+.prueba{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    height: 45%;
+    padding-top: 5px;
+}
+
+.pro article{
+    margin-bottom:1.5rem;
+    width: 322px;
+    height: 322px;
+    position: relative;
+    //padding-bottom: 150px;
+    border-radius: 100%;
+    border: 3px solid #F79F1F;
+    overflow: hidden;
+    box-shadow: 4px 6px 8px 0px gray;
+}
+
+
+.pro img{
+    height: 80%;
+    object-fit: scale-down;
+    max-width: 170px;
+   
+}
+
+.pro .p{
+    margin: auto; 
+    top: 50px;
+    
+}
+
+.pro h3{
+        
+}
+
+
+
+
+@media(min-width:730px){
+    .pro .contenedor{
+        justify-content: space-between;
+    }
+}
+
+
+
+
+@media(min-width:999px){
+    .pro article{
+        margin-bottom:2rem;
+    }
+}

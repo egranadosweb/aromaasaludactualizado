@@ -1,0 +1,73 @@
+
+
+.suscripcion{
+    overflow: hidden;
+    position: relative;
+    padding: 4rem 0;
+
+    background: rgb(155,29,0);
+    background: linear-gradient(185deg, rgba(155,29,0,1) 0%, rgba(65,2,60,1) 41%);
+}
+.suscripcion__filtro{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background: rgb(155,29,0);
+    background: linear-gradient(185deg, rgba(155,29,0,1) 0%, rgba(65,2,60,1) 41%);
+    opacity: .5;
+}
+.suscripcion__fondo{
+    width: 100%;
+    transform: scale(1.9);
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+.suscripcion__contenedor{
+   
+   
+    position: relative;
+    z-index: 3;
+    
+}
+.suscripcion__body{}
+.suscripcion__grupo{
+    margin-bottom: 2rem;
+}
+.suscripcion__title{
+    width: 100%;
+    color: #F7EA1F;
+    text-align: center;
+    font-weight: 200;
+}
+.suscripcion__control-grupo{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.suscripcion__input{
+    width: 100%;
+    border: none;
+    padding: .5rem 1rem;
+    border-radius:120px 0 0 120px;
+}
+.suscripcion__btn{
+    padding: .5rem;
+    border: none;
+    border-radius:0 120px 120px 0;
+}
+.suscripcion__title-span{
+    font-weight: 600;
+}
+
+
+@media (min-width:987px){
+    .suscripcion__fondo{
+    }
+}

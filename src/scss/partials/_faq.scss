@@ -1,0 +1,33 @@
+.faq{
+    margin-bottom: 4rem;
+}
+.faq__contenedor{
+    @include card-shadow;
+}
+.faq__header{}
+.faq__title{}
+.faq__body{}
+.faq__item{
+    
+}
+.faq__list{
+    margin-top: 1rem;
+}
+.faq__list-item{
+    margin-left: .5rem;
+    margin-bottom: .5rem;
+}
+.faq__list-item::before{
+    content: "+";
+    margin-right: .5rem;
+    color: #009432;
+
+}
+.faq__pregunta{
+    padding: 1rem 0;
+    color: #000;
+    //list-style: none;
+}
+.faq__respuesta{
+
+}

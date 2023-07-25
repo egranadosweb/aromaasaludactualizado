@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /nofollow/
+Noindex: /nofollow/
+Sitemap: https://www.aromaasalud.com/sitemap.xml

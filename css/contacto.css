@@ -1,0 +1,56 @@
+#contacto {
+  background: #fff;
+  color: black;
+  border-top: 4px solid #FFFD22;
+  padding-bottom: 4rem;
+}
+
+.contacto__contenedor {
+  padding: 0 1rem;
+}
+
+.contacto__redes {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.contacto__red {
+  display: inline-block;
+  margin: auto;
+}
+
+.contacto__svg-link:hover svg {
+  transition: all 0.5s;
+  filter: invert(72%) sepia(34%) saturate(1922%) hue-rotate(342deg) brightness(98%) contrast(98%);
+}
+
+.contacto__info {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+
+.contacto__item {
+  display: inline-block;
+  margin: auto;
+  text-align: center;
+}
+
+.contacto__menu {
+  margin-bottom: 4rem;
+}
+
+.contacto__submenu {
+  text-align: center;
+}
+
+.contacto__politicas {
+  display: flex;
+}
+
+.contacto__politica {
+  margin: auto;
+  font-size: 0.8rem;
+}
+
+/*# sourceMappingURL=contacto.css.map */
